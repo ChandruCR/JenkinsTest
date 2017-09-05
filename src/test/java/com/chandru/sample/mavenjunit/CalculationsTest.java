@@ -64,7 +64,7 @@ public class CalculationsTest {
 	
 	@Test
 	public void testDifferenceType4() {
-		int result =  calculations.difference(-12, 15);
-		Assert.assertEquals(27, result);
+		int result =  calculations.difference(-13, 15);
+		Assert.assertEquals(28, result);
 	}
 }
